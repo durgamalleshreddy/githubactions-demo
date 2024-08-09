@@ -14,10 +14,8 @@ jobs:
 
     - name: executing shell  script
       run:  |
-       cd .github/workflows
-       ls -ltr
-       chmod +x ./ascii-script.sh
-       ./ascii-script.sh
+       chmod +x .github/workflows/ascii-script.sh
+       ./.github/workflows/ascii-script.sh
        cat dragon.txt
 
 
