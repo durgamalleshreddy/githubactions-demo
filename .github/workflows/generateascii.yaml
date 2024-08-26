@@ -12,7 +12,7 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v4
 
-    - name: executing shell  script
+    - name: enxecuting shell  script
       run:  |
        chmod +x .github/workflows/ascii-script.sh
        ./.github/workflows/ascii-script.sh
